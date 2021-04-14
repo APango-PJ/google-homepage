@@ -1,0 +1,1 @@
+This is a project to replicate the google homepage. This project is a part of The Odin Project.
