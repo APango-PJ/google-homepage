@@ -1,0 +1,72 @@
+body{
+    font-family: arial, sans-serif;
+}
+#main{
+    text-align: center;
+    margin: 15% 0 15% 0;
+}
+img{
+    margin: 0px 0px 30px 0px;
+}
+#search-bar{
+    display: block;
+    margin: auto;
+    width: 550px;
+    border-radius: 50px;
+    height: 37.5px;
+    border: 1px solid rgb(228, 228, 228);
+}
+#search-bar:hover{
+    box-shadow: 0.3px 0.3px 0.6px 0.6px rgb(212, 212, 212);
+}
+@media (max-width: 500px) {
+    #search-bar{
+        width: 100%;
+    }
+}
+
+button{
+    background-color: rgb(248, 249, 250);
+    padding: 10px 15px 10px 15px;
+    border: 1px rgb(248, 249, 250);
+    margin: 30px 1px;
+    color: rgb(60, 64, 67);
+}
+button:hover{
+    box-shadow: 0.3px 0.3px 0.6px 0.6px rgb(212, 212, 212);
+
+}
+p{
+    display: inline;
+    padding-right: 20px;
+}
+a{
+    color: rgb(60, 64, 67);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#div1{
+    float: left;
+}
+#div2{
+    float: right;
+}
+#footer{
+    background-color: rgb(248, 249, 250);
+    color: rgb(60, 64, 67);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#top{
+    border-bottom: 1px solid rgb(228, 228, 228);
+    background-color: rgb(248, 249, 250);
+    color: rgb(60, 64, 67);
+    padding: 20px 20px 20px 40px;
+}
+#bottom{
+    padding: 20px 20px 40px 40px;
+
+}
